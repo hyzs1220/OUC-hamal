@@ -1,0 +1,9 @@
+    <view class="search-content">
+    <image class="some-gif" src="/img/search-gif.gif"></image>
+      <input placeholder="请输入搜索内容" class="search-input" maxlength="30" confirm-type="搜索" bindinput='listenerSearchInput' bindinput='keyWordInput'>
+      </input>
+      <button class='search-btn' bindtap="goToShow">搜索
+      </button>
+    </view>
+
+

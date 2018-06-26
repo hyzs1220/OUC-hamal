@@ -1,0 +1,113 @@
+/**text.wxss**/
+.textmargin {
+  float: left;
+}
+
+.news-avatar {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 5rpx;
+  border-radius: 10%;
+  float: left;
+}
+
+#wordscard text {
+  font-size: .8em;
+}
+
+.rowalign {
+    flex-direction: row;
+    float: left;
+}
+.rowalign text {
+  padding-left: 10rpx;
+}
+
+.card, #wordscard {
+    background: #fff;
+    margin: 20rpx 14px;
+    padding: 20px 32rpx;
+    border-radius: 2%;
+}
+
+.card {
+    background: #fff;
+}
+
+.card button {
+    width: 400rpx;
+    margin-top: 30px;
+    margin-bottom: 25rpx;
+    /*margin: 10rpx 75rpx;*/
+}
+
+#wordscard {
+    height: 130px;
+}
+
+page, view {
+    font-family: arial,'pingfang sc',stheiti,"microsoft yahei",sans-serif
+}
+page {
+    background: #e0e0e0;
+}
+
+.title {
+    color: #3366CC;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 20rpx;
+    padding-top: 20rpx;
+}
+
+.tag {
+    color: #3366CC;
+    font-weight: 200;
+    font-size: .8em;
+    padding-bottom: 30rpx;
+    padding-top: 50rpx;
+}
+
+.para {
+    font-size: .9em;
+    padding-bottom: 30rpx;
+    padding-top: 30rpx;
+}
+.tag-btn{
+  width: 400rpx;
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #3366CC;
+  color: #fff;
+  border-radius: 100rpx;
+}
+.tag-btn:active {
+  opacity: .8;
+}
+
+.bigWrap{ 
+        background:#eee; 
+} 
+.widget-goTop { 
+  position: fixed; 
+  bottom: 100px; 
+  right: 25px; 
+  background: #3366CC; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  z-index: 500; 
+} 
+.widget-goTop .gotop-wrap { 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width: 50px; 
+  height: 50px; 
+  font-size: 12px; 
+  color: #fff; 
+  border-radius: 50%; 
+  background-color: #3366CC; 
+  -webkit-background-size: 50px auto; 
+}

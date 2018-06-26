@@ -1,0 +1,20 @@
+<!--text.wxml-->
+
+<scroll-view scroll-y="true" bindscroll="scroll" scroll-top="{{scrollTop}}" bindscrolltolower="getMore" style="position:absolute; top:0; left:0; right:0; bottom:0;">
+  <view class="grid">
+      <!--hot news list-->
+      <view class="card" wx:for="{{info}}" wx:for-index="itemIndex">
+          <view><text class="title">{{ item.name }}</text></view>
+          <view><text class="tag">{{ item.time }}</text></view>
+          <button class="tag-btn" data-variable="{{ item.addr }}" bindtap="copyTBL">把链接搬到剪贴板~</button>
+      </view>
+  </view>
+</scroll-view>
+
+
+<!--回到顶部  -->
+<view class="widget-goTop" bindtap="goTop" wx:if="{{ floorstatus }}">
+  <view class="gotop-wrap">
+    <view class="icon icon-top"></view> <view>上去~</view>
+  </view>
+</view>
